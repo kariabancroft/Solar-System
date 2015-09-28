@@ -19,6 +19,7 @@ Let's make a planetary system!
     - `1. Mercury, 2. Venus, 3. Earth, 4. Secret Earth, 5. Mars, 6. Jupiter, ... 13. Exit`
   - Provide the user with well formatted information about the planet (diameter, mass, number of moons, primary export, etc.)
   - Then ask the user for another planet.
+
 <!--
 # Wave 2
 ## Primary Requirements
