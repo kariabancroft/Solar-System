@@ -6,13 +6,12 @@ Let's make a planetary system!
 
 # Wave 1
 ## Primary Requirements
-- Get creative! Give each instance of `Planet` diameters, mass, moons.. whatever! __Allow these attributes to be set using a hash in initialize.__
-- You should be able to create many different planets with different properties, like Mercury, Venus, Earth, Mars, Jupiter, etc.
+- Give your `Planet` class some additional properties like diameter, mass, number of moons, and any other properties you think a planet should have.
+- You should be able to create many different planet objects with different properties, like Mercury, Venus, Earth, Mars, Jupiter, etc.
 
 ## Optional Enhancements
 - Give each planet a rate of solar rotation
 - Give each planet a `@distance_from_the_sun` attribute
-
 - Write a program that asks for user input to query the planets:
   - First, ask the user to select a planet they'd like to learn about.
   - Present the user with a list of planets from which they can choose. Something like:
