@@ -12,7 +12,7 @@ Let's make a planetary system!
 ## Optional Enhancements
 - Give each planet a rate of solar rotation
 - Give each planet a `@distance_from_the_sun` attribute
-- Write a program that asks for user input to query the planets:
+- Write a _new_ program that asks for user input to query the planets using the `Planet` class you have created:
   - First, ask the user to select a planet they'd like to learn about.
   - Present the user with a list of planets from which they can choose. Something like:
     - `1. Mercury, 2. Venus, 3. Earth, 4. Secret Earth, 5. Mars, 6. Jupiter, ... 13. Exit`
