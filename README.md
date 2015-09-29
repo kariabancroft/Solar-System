@@ -19,16 +19,14 @@ Let's make a planetary system!
   - Provide the user with well formatted information about the planet (diameter, mass, number of moons, primary export, etc.)
   - Then ask the user for another planet.
 
-<!--
+
 # Wave 2
 ## Primary Requirements
-- Create a `SolarSystem` class that has an attribute `planets` that has zero to many `Planet` instances. There are a few different options for how to associate the planets with your solar system:
-    - Initialize the list of planets in the constructor of the solar system
-    - Create a method that adds a single planet to a solar system
-    - Create a method that adds a list of planets to the existing list of planets
+- Create a `SolarSystem` class that has an attribute `planets` that has zero to many `Planet` instances. To create the Planet associations, your `SolarSystem` should:
+    - Have a method that adds a single planet to your solar system
+    - Have a second method that adds an array of planets to the existing array of planets
 
 ## Optional Enhancements
-- Ensure that the each planet has a `@distance_from_the_sun` attribute. Using this data, add a method to determine the distance from any other planet (assuming planets are in a straight line from the sun)
+- If you haven't already, add a `@distance_from_the_sun` attribute to your `Planet`. Using this data, add a method to your `SolarSystem` which will calculate the distance between any two planets provided (assuming planets are in a straight line from the sun)
 - Give your solar system a formation year (in earth years).
 - Define a method that returns the local year of the planet based on it's rotation since the beginning of the solar system
--->
