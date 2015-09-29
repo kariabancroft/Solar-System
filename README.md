@@ -25,6 +25,8 @@ Let's make a planetary system!
 - Create a `SolarSystem` class that has an attribute `planets` that has zero to many `Planet` instances. To create the Planet associations, your `SolarSystem` should:
     - Have a method that adds a single planet to your solar system
     - Have a second method that adds an array of planets to the existing array of planets
+- Update your `initialize` in the `Planet` class to accept a hash rather than individual parameters
+- Use a default value attribute in at least one method in your `Planet` class
 
 ## Optional Enhancements
 - If you haven't already, add a `@distance_from_the_sun` attribute to your `Planet`. Using this data, add a method to your `SolarSystem` which will calculate the distance between any two planets provided (assuming planets are in a straight line from the sun)
